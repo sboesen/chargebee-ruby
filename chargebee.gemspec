@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.rubygems_version = '1.3.5'
 
-  s.name              = 'chargebee'
+  s.name              = 'sboesen-chargebee'
   s.version           = '2.1.6'
   s.date              = '2016-10-27'
 
@@ -21,9 +21,9 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = %w[README.rdoc LICENSE]
 
   s.add_dependency('json_pure', '~> 1.5')
-  s.add_dependency('rest-client', '~> 1.4')
+  s.add_dependency('rest-client', '~> 2.0')
 
-  s.add_development_dependency('rspec', '~> 3.0.0')
+  s.add_development_dependency('rspec', '~> 3.0')
   s.add_development_dependency('mocha')
 
   # = MANIFEST =
