@@ -3,9 +3,9 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.rubygems_version = '1.3.5'
 
-  s.name              = 'sboesen-chargebee'
-  s.version           = '2.1.6'
-  s.date              = '2016-10-27'
+  s.name              = 'chargebee'
+  s.version           = '2.1.7'
+  s.date              = '2016-11-05'
 
   s.summary     = "Ruby client for Chargebee API."
   s.description = "Subscription Billing - Simple. Secure. Affordable. More details at www.chargebee.com."
